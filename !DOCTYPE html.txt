@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>أفضل ذكاء اصطناعي</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- شريط التنقل -->
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-red-600">أفضل ذكاء اصطناعي</h1>
+      <nav>
+        <a href="#features" class="text-gray-700 mx-2 hover:text-red-500">الميزات</a>
+        <a href="#chat" class="text-gray-700 mx-2 hover:text-red-500">الدردشة</a>
+        <a href="#contact" class="text-gray-700 mx-2 hover:text-red-500">تواصل معنا</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- قسم الترحيب -->
+  <section class="bg-gradient-to-r from-red-500 to-red-700 text-white py-20">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-4xl font-bold mb-4">تعرف على مساعدك الذكي</h2>
+      <p class="text-lg mb-6">اسأل أي شيء، واحصل على إجابات فورية بدعم من الذكاء الاصطناعي.</p>
+      <a href="#chat" class="bg-white text-red-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-100">جرّبه الآن</a>
+    </div>
+  </section>
+
+  <!-- الميزات -->
+  <section id="features" class="py-16">
+    <div class="max-w-5xl mx-auto px-4 text-center">
+      <h3 class="text-2xl font-bold mb-8 text-red-600">الميزات</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div>
+          <h4 class="text-xl font-semibold mb-2 text-red-500">دردشة فورية</h4>
+          <p>تفاعل مع الذكاء الاصطناعي مباشرة واحصل على ردود سريعة.</p>
+        </div>
+        <div>
+          <h4 class="text-xl font-semibold mb-2 text-red-500">فهم اللغة الطبيعية</h4>
+          <p>يفهم الأسئلة المعقدة ويعطي إجابات دقيقة وذكية.</p>
+        </div>
+        <div>
+          <h4 class="text-xl font-semibold mb-2 text-red-500">يتعلم باستمرار</h4>
+          <p>مدعوم بأحدث تقنيات GPT-4o لتجربة أكثر ذكاءً.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- الدردشة -->
+  <section id="chat" class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-center mb-6 text-red-600">تحدث إلى الذكاء الاصطناعي</h3>
+      <div class="bg-gray-100 p-6 rounded shadow">
+        <!-- مكان الشات بوت -->
+        <p class="text-center text-gray-500">[ سيتم وضع واجهة الدردشة هنا ]</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- تواصل معنا -->
+  <section id="contact" class="py-16">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h3 class="text-2xl font-bold mb-4 text-red-600">تواصل معنا</h3>
+      <p>البريد الإلكتروني: support@thebestai.com</p>
+    </div>
+  </section>
+
+  <!-- التذييل -->
+  <footer class="bg-gray-800 text-white py-4 text-center">
+    <p>&copy; 2025 أفضل ذكاء اصطناعي. جميع الحقوق محفوظة.</p>
+  </footer>
+
+</body>
+</html>
